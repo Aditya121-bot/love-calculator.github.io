@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    <h1>Love Calculator</h1>
+        <div class="container">
+        <div id="inp">
+        <form action="action.php">
+            <input id="you" placeholder="Your Name" required> <b>+</b>
+            <input id="yourPartner" placeholder="Partner Name" required>
+               <button  id="btn" onclick="lovepercent()">Check  </button>
+                <button type="reset" id="reset">Reset</button>
+        
+            </form>
+               
+        </div>
+       
+            <input id="result" disabled>
+            <div id="godbless">
+                <p>Godbless Your Relationship</p>
+            </div>
+                </div>
+                
+                <footer>
+            <div class="ft1">  
+              </div>
+                <p id="copy">
+                  copyright © - All Right Reserved                     
+<br /> Love Calculator
+<br />By- Aditya Programmer
+                </p>
+     
+                    
+                </footer>
+                
+                
+                <style>body {
+    background-color:#ffc0cc;
+    position:fixed ;
+}
+h1{
+    margin-left:60px;
+    margin-top:15px;
+    color:red;
+}
+.container{
+    height:250px;width:340px;
+    margin-top:20px;margin-left:0px;
+    border-radius:4.5px;
+    border:2px solid grey;
+    border-bottom-width:1px;
+    background-color:#ffc0cc;
+    align-items:center ;
+    
+    }
+#you{
+    margin-left:3.6px;
+}
+b{
+    margin-left:2px;
+    font-size:20px;
+    color:red;
+}
+#inp{
+    color:red;
+}
+input{
+    width:150px;height:28px;
+    margin-left:4px;
+    outline:none;
+    text-align:center ;
+    margin-top:13px;
+    font-family:monospace;
+    border:2px solid black;
+    border-radius:4px;
+    color:red;
+    font-size:15px;
+    font-weight:bolder;
+    text-transform:uppercase;
+}
+button{
+    height:30px;width:175px;
+    margin-top:20px;
+    color:white;
+    border-radius:4px;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-left:85px;
+    border:2px solid limegreen;
+    background-color:limegreen;
+}
+#result{
+    height:30px;width:100px;
+    margin-top:20px;
+    margin-left:120px;
+    color:red;
+    border-radius:4px;
+    text-transform:uppercase;
+    font-weight:bolder;   
+    border:2px solid black;
+}
+#godbless{
+    height:34px;width:340px;
+    margin-top:11px;margin-left:-1px;
+    border-radius:0px;
+    border-bottom-width:0px;
+    border-left-width:0px;
+    border-bottom-right:0px;
+    background-color:#ffcccc;
+    border:1px solid grey;
+    text-align:center
+}
+#godbless{
+    font-weight:bold;
+}
+p{
+    font-size:18px;
+    margin-top:5px;
+    
+}
+
+
+footer{
+    border:1px solid black;
+    border-top-color:white;
+    border-bottom-color:white;
+    background-color:#b5e2ff;
+    margin-top:68px;
+
+    height:60px;width:361.6px;
+    text-align:center;
+    margin-left:-11px;
+    line-height:18px;
+}
+#copy{
+    font-size:14px;
+    font-weight:;
+    
+}
+#liv{
+    color:red;
+    margin-top:-7px;
+    font-size:14px;
+}</style>
+                
+                <script>function lovepercent(){
+    var lovedata = Math.random()*100;
+    lovedata = Math.floor(lovedata);
+        document.getElementById("result").value= lovedata + "%" + "❤️"
+        
+    console.log(lovedata)
+}
+
+ </script>
+    </body>
+</html>
